@@ -1,0 +1,175 @@
+/* CSS Document */
+
+*, *:after, *:before {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+html {
+	font-size:100%;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	margin:0;
+	padding:0;
+}
+.pagePublique {
+	background-color:#57c;
+}
+.pagePrivee {
+	background-color:#c57;
+}
+#enveloppe {
+	background-color:#fff;
+	box-shadow: 8px 8px 16px rgba(0,0,0,.5);
+	margin:20px auto;
+	padding:20px;
+	width:960px;
+}
+#entetePage {
+	border-bottom: dotted 2px #888;
+	margin-bottom:40px;
+	padding:10px 0 5px;
+}
+#entetePage h1, #entetePage h2 {
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0;
+}
+#entetePage h2 {
+	color:#666;
+	font-size:.8em;
+}
+#entetePage a {
+	color:inherit;
+	text-decoration:inherit;
+}
+
+#navigationPrincipale {
+	float:left;
+	margin-bottom:20px;
+	width:160px;
+}
+#navigationPrincipale ul {
+	margin:0;
+	padding:0;
+}
+#navigationPrincipale ul li {
+	list-style:none;
+}
+#navigationPrincipale ul  a{
+	display:block;
+	text-decoration:none;
+	color:#666;
+}
+#navigationPrincipale ul a:hover{
+	background-color:#888;
+}
+
+#navigationPrincipale ul li ul {
+	margin-top:10px;
+	padding-top:10px;
+	border-top: dotted 2px #888;
+}
+
+#sectionPrincipale {
+	float: right;
+	margin-bottom:20px;
+	width: 720px;
+}
+#sectionPrincipale a {
+	color: #666;
+}
+#sectionPrincipale .galerie h1 {
+	border-bottom: dotted 2px #888;
+	font-size:1.4em;
+	font-weight:normal;
+	margin:0;
+	text-transform:uppercase;
+}
+.blocMessageRetour {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.galerie {
+	border: solid 1px #888;
+	padding: 10px 20px;
+	margin: 10px 0;
+}
+.galerie .blocAjoutFichier,
+.galerie .blocSupprimerGalerie  {
+	border-top: dotted 2px #888;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.galerie .blocAjoutFichier label
+{
+	display:block;
+	margin:10px 0;
+}
+.galerie .blocAjoutFichier input {
+	margin: 10px 20px 10px 0;
+}
+#blocDeconnexion, .blocCreerGalerie {
+	border-top: dotted 2px #888;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+#piedPage {
+	border-top: dotted 2px #888;
+	clear:both;
+	margin-top:40px;
+	padding-top:10px;
+}
+
+.galerie ul {
+	list-style:none;
+	margin: 20px 0;
+	padding:0;
+}
+.galerie ul:after, #enveloppe:before, #enveloppe:after  {
+	display:block;
+	content:".";
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+
+.galerie li {
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+}
+.galerie li img{
+display:block;
+}
+.galerie .lienSupprimerImage {
+	background-color:#000;
+	color:#fff !important;
+	font-weight:bold;
+	height:1.2em;
+	overflow:hidden;
+	padding:0 .1em;
+	position:absolute;
+	right:0;
+	text-decoration:none !important;
+	top:0;
+	width:1em;
+}
+.galerie .lienSupprimerImage:before {
+	content: 'X';
+	display:block;
+	height:1em;
+	text-align:center;
+	width:1em;
+}
+
+
+
+
